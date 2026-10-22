@@ -245,49 +245,37 @@ The *trigger message* relationship is not stored in a table; the program shows o
 
 ## 10. User guide - log on and manage the system
 
-Each step below has an **image slot**. The images in `docs/images/` are **placeholders**. To add a real screenshot:
-
-1. Run the program and open the screen (press **Win + Shift + S** to capture it).
-2. Save the picture as **PNG** with the **same file name** shown under the step (for example `docs/images/02-login-filled.png`).
-3. Replace the placeholder file. Nothing in this README needs to be edited.
-
-> Tip: keep screenshots about 1280 x 720 pixels so every image looks the same size.
-
 ### 10.1 Log on and log out
 
 **Step 1 - Start the program**
 
 Run **ERMSDB** from Visual Studio (**F5**) or open `ERMSDB.exe`. The sign-in window opens. Make sure MySQL is running first.
 
-Path: C:\ERMSDB_RUSL (1)\ERMSDB\x64\Debug\ERMSDB.exe
+Path: `C:\ERMSDB_RUSL (1)\ERMSDB\x64\Debug\ERMSDB.exe`
 
-<img src="docs/images/01-login-screen.png" alt="Start the program" width="720"/>
+<img src="assets/Login screen.png" alt="Start the program" width="720"/>
 
-> **Image slot:** `docs/images/01-login-screen.png` (replace with your screenshot)
+---
 
 **Step 2 - Enter your Employee ID and password**
 
 Type your **Employee ID** (a number) and **password**, then click **SIGN IN** (or press **Enter**). Tick *Show password* to check what you typed.
 
-<img src="docs/images/02-login-filled.png" alt="Enter your Employee ID and password" width="720"/>
+<img src="assets/Login screen.png" alt="Enter your Employee ID and password" width="720"/>
 
-> **Image slot:** `docs/images/02-login-filled.png` (replace with your screenshot)
+---
 
 **Step 3 - Find your way around the main window**
 
 The **header** shows your name and role, the **left menu** lists the screens of your role, the **middle** is the work area and the **footer** shows the database connection.
 
-<img src="docs/images/03-main-window.png" alt="Find your way around the main window" width="720"/>
+<img src="assets/ERMSDB.png" alt="Find your way around the main window" width="720"/>
 
-> **Image slot:** `docs/images/03-main-window.png` (replace with your screenshot)
+---
 
 **Step 4 - Log out**
 
 Click **Log Out** at the bottom of the left menu. You return to the sign-in window and can sign in as another user.
-
-<img src="docs/images/04-logout.png" alt="Log out" width="720"/>
-
-> **Image slot:** `docs/images/04-logout.png` (replace with your screenshot)
 
 ---
 
@@ -297,49 +285,47 @@ Click **Log Out** at the bottom of the left menu. You return to the sign-in wind
 
 After sign-in you see your profile and the course counter (for example `3 / 4`, maximum 4 courses).
 
-<img src="docs/images/10-lic-dashboard.png" alt="Open the Dashboard" width="720"/>
+<img src="assets/lectuere in charge dashbord.png" alt="Open the Dashboard" width="720"/>
 
-> **Image slot:** `docs/images/10-lic-dashboard.png` (replace with your screenshot)
+---
 
 **Step 2 - Select a course**
 
 Choose the **Semester** and **Course**. Optionally pick a **Second Examiner** (only people of a higher grade are listed) and a **Moderator**. Click **Save Selection**. A message appears when you reach the maximum of 4 courses.
 
-<img src="docs/images/11-lic-select-course.png" alt="Select a course" width="720"/>
+<img src="assets/lectuere in charge dashbord.png" alt="Select a course" width="720"/>
 
-> **Image slot:** `docs/images/11-lic-select-course.png` (replace with your screenshot)
+---
 
 **Step 3 - Remove a course**
 
 In **My Courses** click a row, then **Remove Selected Course** to free a place.
 
-<img src="docs/images/12-lic-my-courses.png" alt="Remove a course" width="720"/>
+<img src="assets/lectuere in charge dashbord.png" alt="Remove a course" width="720"/>
 
-> **Image slot:** `docs/images/12-lic-my-courses.png` (replace with your screenshot)
+---
 
 **Step 4 - Submit documents**
 
 Open **Document Submission**. Pick the course, paste the **exam paper link** and click **Submit Paper**. Paste the **detail mark sheet link** and click **Submit Mark Sheet**. Links must start with `http://` or `https://`.
 
-<img src="docs/images/13-lic-documents.png" alt="Submit documents" width="720"/>
+<img src="assets/Lecturer in charge document submition section.png" alt="Submit documents" width="720"/>
 
-> **Image slot:** `docs/images/13-lic-documents.png` (replace with your screenshot)
+---
 
 **Step 5 - Follow the packet**
 
 Open **Tracking** to see each course move through *Pending > Packet submitted > EIS updated > Handed over*.
 
-<img src="docs/images/14-lic-tracking.png" alt="Follow the packet" width="720"/>
+<img src="assets/Lecturer in charge course traking section.png" alt="Follow the packet" width="720"/>
 
-> **Image slot:** `docs/images/14-lic-tracking.png` (replace with your screenshot)
+---
 
 **Step 6 - Upload a payment sheet**
 
-Open **Payment Sheet**, paste the link, check the date and click **Submit Payment Sheet**. The table shows its status: *Uploaded > Verified > Sent to AR > Paid* (or *Rejected* with a remark). Second examiners and moderators use the same screen.
+Open **Payment Sheet**, paste the link, check the date and click **Submit Payment Sheet**. The table shows its status: *Uploaded > Verified > Sent to AR > Paid* (or *Rejected* with a remark).
 
-<img src="docs/images/15-payment-upload.png" alt="Upload a payment sheet" width="720"/>
-
-> **Image slot:** `docs/images/15-payment-upload.png` (replace with your screenshot)
+<img src="assets/lecter in charge paymnt submit section.png" alt="Upload a payment sheet" width="720"/>
 
 ---
 
@@ -349,25 +335,31 @@ Open **Payment Sheet**, paste the link, check the date and click **Submit Paymen
 
 **View** lists the courses where you are second examiner, with the lecturer in charge and the exam date. Select a course and click **Open Document** to read the paper.
 
-<img src="docs/images/20-se-view.png" alt="View your courses" width="720"/>
+<img src="assets/secondexaminer dashbord.png" alt="View your courses" width="720"/>
 
-> **Image slot:** `docs/images/20-se-view.png` (replace with your screenshot)
+---
 
 **Step 2 - Submit the second examiner report**
 
 Open **Document Submission**. Pick the course. Under *Lecturer in Charge - Detail Mark Sheet* click **Open File** to read the mark sheet. Then paste your report link, choose the date and click **Submit Report**.
 
-<img src="docs/images/21-se-documents.png" alt="Submit the second examiner report" width="720"/>
+<img src="assets/second examiner documnt submition.png" alt="Submit the second examiner report" width="720"/>
 
-> **Image slot:** `docs/images/21-se-documents.png` (replace with your screenshot)
+---
 
 **Step 3 - Track progress**
 
 **Tracking** shows the packet stage of your courses.
 
-<img src="docs/images/22-se-tracking.png" alt="Track progress" width="720"/>
+<img src="assets/second examiner exam paket traking.png" alt="Track progress" width="720"/>
 
-> **Image slot:** `docs/images/22-se-tracking.png` (replace with your screenshot)
+---
+
+**Step 4 - Submit payment sheet**
+
+Upload and manage payment sheets as a second examiner.
+
+<img src="assets/second examier payment sheet submit section.png" alt="Second Examiner Payment Sheet" width="720"/>
 
 ---
 
@@ -377,9 +369,15 @@ Open **Document Submission**. Pick the course. Under *Lecturer in Charge - Detai
 
 Open **Dashboard & Verify**. Select a course, click **Open Document** to review it, then **Mark as Verified**. The *Verification* column changes to *Verified*.
 
-<img src="docs/images/30-moderator-verify.png" alt="Verify a document" width="720"/>
+<img src="assets/Modarator_dashbord.png" alt="Verify a document" width="720"/>
 
-> **Image slot:** `docs/images/30-moderator-verify.png` (replace with your screenshot)
+---
+
+**Step 2 - Payment Sheet**
+
+Check payment processing status for moderation duties.
+
+<img src="assets/modaratoe_payment.png" alt="Moderator Payment" width="720"/>
 
 ---
 
@@ -389,41 +387,39 @@ Open **Dashboard & Verify**. Select a course, click **Open Document** to review 
 
 On the **Dashboard** enter the year, semester number, start and due dates and click **Create Semester**.
 
-<img src="docs/images/40-hod-semester.png" alt="Create a semester" width="720"/>
+<img src="assets/hod dashbord.png" alt="Create a semester" width="720"/>
 
-> **Image slot:** `docs/images/40-hod-semester.png` (replace with your screenshot)
+---
 
 **Step 2 - Add an employee**
 
 Fill in the details, choose the **Role** and the **Qualification** (grade), set a **login password** and click **Add Employee**. The Employee ID is generated automatically.
 
-<img src="docs/images/41-hod-add-employee.png" alt="Add an employee" width="720"/>
+<img src="assets/hod employee updae section 01.png" alt="Add an employee" width="720"/>
 
-> **Image slot:** `docs/images/41-hod-add-employee.png` (replace with your screenshot)
+---
 
 **Step 3 - Manage course tracking records**
 
 Open **Course Tracking**. Select a record to load it, change the exam or packet details, then **Save Record**. **Delete Record** removes it. Use *Clear* to start a new record.
 
-<img src="docs/images/42-hod-course-tracking.png" alt="Manage course tracking records" width="720"/>
+<img src="assets/hod exam paket traking section.png" alt="Manage course tracking records" width="720"/>
 
-> **Image slot:** `docs/images/42-hod-course-tracking.png` (replace with your screenshot)
+---
 
 **Step 4 - Update or delete employees**
 
 Open **Employees**. Search by ID or name, select a person, edit the details and click **Update**, or **Delete** to remove the employee.
 
-<img src="docs/images/43-hod-employees.png" alt="Update or delete employees" width="720"/>
+<img src="assets/hod employee update section.png" alt="Update or delete employees" width="720"/>
 
-> **Image slot:** `docs/images/43-hod-employees.png` (replace with your screenshot)
+---
 
 **Step 5 - Verify payment sheets**
 
 Open **Payment Sheets**. Select an uploaded sheet, click **Open Sheet** to check it, add an optional remark, then **Verify & Send to HOD Clerk** or **Reject**.
 
-<img src="docs/images/44-hod-payment-verify.png" alt="Verify payment sheets" width="720"/>
-
-> **Image slot:** `docs/images/44-hod-payment-verify.png` (replace with your screenshot)
+<img src="assets/Hod paymnt verify section.png" alt="Verify payment sheets" width="720"/>
 
 ---
 
@@ -433,53 +429,33 @@ Open **Payment Sheets**. Select an uploaded sheet, click **Open Sheet** to check
 
 The table lists sheets verified by the HOD. Select one: the **URL** and **Employee ID** fill in. Check the submission date and click **Submit to AR Office**.
 
-<img src="docs/images/50-clerk-send.png" alt="Send verified sheets to the AR office" width="720"/>
-
-> **Image slot:** `docs/images/50-clerk-send.png` (replace with your screenshot)
+<img src="assets/HODclerk dashbord.png" alt="Send verified sheets to the AR office" width="720"/>
 
 ---
 
 ### 10.7 AR Office (example login: 1 / ar123)
 
-**Step 1 - Add a course**
+**Step 1 - Exam Packet Management & Handover**
 
-In **Course ADD** enter the course code, name and description and click **ADD Course**.
+Track packet collection, EIS updates, and handovers across semesters.
 
-<img src="docs/images/60-ar-add-course.png" alt="Add a course" width="720"/>
+<img src="assets/Ar exam paket traking 01.png" alt="Collect packets and update EIS" width="720"/>
 
-> **Image slot:** `docs/images/60-ar-add-course.png` (replace with your screenshot)
+---
 
-**Step 2 - Create an exam offering**
+**Step 2 - Tracking details**
 
-In **Exam Offering** pick the semester and course, set the exam date, number of answer scripts and status, then **Save Offering**.
+View overall packet submission statuses.
 
-<img src="docs/images/61-ar-exam-offering.png" alt="Create an exam offering" width="720"/>
+<img src="assets/arexam traking section 2.png" alt="Record EIS update and hand over" width="720"/>
 
-> **Image slot:** `docs/images/61-ar-exam-offering.png` (replace with your screenshot)
+---
 
-**Step 3 - Collect packets**
-
-In **Paper Packet COLLECT** pick the exam, the collect date and the packet count, then click **COLLECT**.
-
-<img src="docs/images/62-ar-collect.png" alt="Collect packets" width="720"/>
-
-> **Image slot:** `docs/images/62-ar-collect.png` (replace with your screenshot)
-
-**Step 4 - Record EIS update and hand over**
-
-In **EIS Update & Hand Over** pick the exam. Use **Record EIS Update**, then **HAND OVER** with the hand-over date. Packets must be collected first. The *Packet Status Board* below updates.
-
-<img src="docs/images/63-ar-handover.png" alt="Record EIS update and hand over" width="720"/>
-
-> **Image slot:** `docs/images/63-ar-handover.png` (replace with your screenshot)
-
-**Step 5 - Pay the lecturers**
+**Step 3 - Pay the lecturers**
 
 Open **Payment Sheets**. Select a sheet received from the HOD clerk, click **Open Payment Sheet**, pay, then **Mark as Paid**.
 
-<img src="docs/images/64-ar-payment.png" alt="Pay the lecturers" width="720"/>
-
-> **Image slot:** `docs/images/64-ar-payment.png` (replace with your screenshot)
+<img src="assets/AR_payment_paid section.png" alt="Pay the lecturers" width="720"/>
 
 ---
 
@@ -489,17 +465,15 @@ Open **Payment Sheets**. Select a sheet received from the HOD clerk, click **Ope
 
 The **Dashboard** shows totals (courses, exams done, packets in, EIS updated, handed over). Use the **Semester** filter to narrow the board.
 
-<img src="docs/images/70-dean-dashboard.png" alt="Monitor all courses" width="720"/>
+<img src="assets/dean_dashbord.png" alt="Monitor all courses" width="720"/>
 
-> **Image slot:** `docs/images/70-dean-dashboard.png` (replace with your screenshot)
+---
 
 **Step 2 - Look up staff**
 
 Open **Employees** to search staff and see their roles and the courses they are involved in (read only).
 
-<img src="docs/images/71-dean-employees.png" alt="Look up staff" width="720"/>
-
-> **Image slot:** `docs/images/71-dean-employees.png` (replace with your screenshot)
+<img src="assets/dean_employee_traking.png" alt="Look up staff" width="720"/>
 
 ---
 
