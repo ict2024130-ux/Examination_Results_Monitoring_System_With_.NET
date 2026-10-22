@@ -259,6 +259,8 @@ Each step below has an **image slot**. The images in `docs/images/` are **placeh
 
 Run **ERMSDB** from Visual Studio (**F5**) or open `ERMSDB.exe`. The sign-in window opens. Make sure MySQL is running first.
 
+Path: C:\ERMSDB_RUSL (1)\ERMSDB\x64\Debug\ERMSDB.exe
+
 <img src="docs/images/01-login-screen.png" alt="Start the program" width="720"/>
 
 > **Image slot:** `docs/images/01-login-screen.png` (replace with your screenshot)
