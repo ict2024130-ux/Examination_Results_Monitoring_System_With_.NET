@@ -113,15 +113,15 @@ After a build, run `x64\Debug\ERMSDB.exe`. To give it to another computer, copy 
 
 Sign in with **Employee ID** and **password** (from the `Users` table).
 
-| Employee ID | Password | Opens |
-|---|---|---|
-| 7 | `lic123` | Lecturer in Charge |
+| Employee ID | Password (Sign-In) | Role |
+|:---:|:---|:---|
+| 1 | `ar123` | AR Office |
 | 4 | `sec123` | Second Examiner |
 | 5 | `mod123` | Moderator |
-| 13 | `hod123` | HOD |
+| 7 | `lic123` | Lecturer in Charge |
 | 10 | `dean123` | Dean |
-| 1 | `ar123` | AR Office |
-| 19 | `clerk123` | HOD Clerk (created automatically) |
+| 13 | `hod123` | HOD |
+| 19 | `Clerk@2026` | HOD Clerk |
 
 Each login opens exactly **one** interface. If an employee holds several roles, the highest one wins:
 Dean > HOD > Second Examiner > Moderator > Lecturer in Charge > HOD Clerk. A login with none of these roles opens the AR Office.
