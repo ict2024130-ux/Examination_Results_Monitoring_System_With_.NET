@@ -482,22 +482,12 @@ Open **Employees** to search staff and see their roles and the courses they are 
 Watch a full walkthrough of the Examination Report Monitoring System (ERMS) in action, demonstrating role-based access, course selection, document submissions, packet tracking, and payment verification workflows:
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE" target="_blank">
+  <a href="https://youtu.be/BSA-Ha6VBds" target="_blank">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/maxresdefault.jpg" alt="ERMS Project Demo Video" width="800"/>
   </a>
 </p>
 
-> **Note:** Replace `YOUR_VIDEO_ID_HERE` with your actual YouTube video ID (e.g., `https://youtu.be/dQw4w9WgXcQ` → ID is `dQw4w9WgXcQ`).
 
-### Local / Embedded Video Alternative
-If you prefer hosting or linking a local video file inside your repository (e.g., in the `docs/` folder):
 
-```html
-<p align="center">
-  <video width="800" controls>
-    <source src="docs/ERMS_demo_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
 
 *Rajarata University of Sri Lanka - Examination Report Monitoring System*
