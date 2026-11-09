@@ -490,4 +490,4 @@ Watch a full walkthrough of the Examination Report Monitoring System (ERMS) in a
 
 
 
-*Rajarata University of Sri Lanka - Examination Report Monitoring System*
+**Rajarata University of Sri Lanka - Examination Report Monitoring System**
